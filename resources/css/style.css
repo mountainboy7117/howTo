@@ -1,11 +1,27 @@
 * {
-    background-color: #FA9F37;
+    background-color: #FA9D37;
     }
     
+body{
+
+width: 90%;
+
+
+
+
+
+
+
+
+}
+
+
     h1 {
     font-size: 2.5rem;
     color: #000000;
     font-weight: 600; padding: 30px;
+    text-align: center;
+   
     }
     
     h2 {
@@ -16,15 +32,48 @@
     h3 {
     font-size: 1.5rem;
     color: #3a4660; padding: 20px;
-
+    padding-top: 10px;
     }
-    
+    h4{
+
+      padding: 30px;
+      text-align: left;
+     
+      }
+
+h5{
+
+  padding: 30px;
+
+  text-align:left
+}
+
+
+
+
+      h6 { padding: 30px;
+
+        text-align:left;
+        
+        }
+        
+
     a {
     background-color: #3a4660;
     color: #c9af98;
     text-decoration: none;
     padding: 20px;
+ transition-duration: .3s;
+ border-radius: 5px;
     }    
+
+a:hover{
+background-color: #3a4660;
+  border: 6px outset #FA3205;
+}
+
+
+
 
     button{
 
@@ -34,12 +83,35 @@ background-color: #FA3205;
   }
 
 
-h6 { padding: 30px;
-
-text-align:left;
 
 
+ul,ol{padding-left: 40px;
+padding-bottom: 30px;
+font-size: x-large;}
+
+ol li{list-style: decimal;
+padding: 5px;
+font-size: x-large;}
+
+ul li{list-style-type: circle;
+padding: 5px;
+font-size:x-large;
 
 }
 
-ul,ol{padding-left: 20px;}
+
+
+
+nav
+
+{
+  width: 55%;
+  margin: 10px;
+padding-bottom: 20px;
+}
+
+.image-container{
+
+align-items: center;
+
+}
